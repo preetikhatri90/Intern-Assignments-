@@ -1,0 +1,167 @@
+.header {
+  width: 50%;
+  height: 40px;
+  margin: 50px 0 100px;
+  text-align: center;
+  font-size: 38px;
+  position: relative;
+}
+
+.header:after {
+  content: "";
+  width: 100%;
+  border-bottom: solid 5px gray;
+  position: absolute;
+  left: 0;
+  top: 70%;
+  z-index: 1;
+}
+
+.header h3 {
+  background-color: white;
+  width: auto;
+  display: inline-block;
+  z-index: 3;
+  padding: 0 20px 0 20px;
+  color: black;
+  position: relative;
+  font-family: calibri;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.parent {
+  margin: 10px;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-weight: normal;
+}
+
+.parent .child {
+  border-width: 1px;
+  padding-left: 3px;
+  padding-bottom: 10px;
+  width: 80%;
+}
+
+.parent .child .p1 {
+  width: 80%;
+}
+
+.parent .child .p1 > a {
+  text-decoration: none;
+  color: red;
+}
+
+.parent .child a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.parent .child .p2 {
+  width: 80%;
+  color: red;
+}
+
+@media (max-width: 768px) {
+  .parent {
+    margin: -7px;
+    padding: 0;
+    display: block;
+  }
+}
+
+.container {
+  width: 555px;
+  height: 800px;
+  border: 1px solid white;
+  font-weight: normal;
+  margin: 100px 0px 0px 350px;
+  background-color: #ebebff;
+}
+
+.container .FirstImage {
+  margin: 15px 0px 0px 30px;
+}
+
+.container .Row1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .Row1 .Title1, .container .Row1 .Title2 {
+  width: 230px;
+  height: 285px;
+  border: 1px solid white;
+  font-size: 18px;
+  margin: 10px 0px 0px 30px;
+  background-color: white;
+}
+
+.container .Row1 .Title2 .btn {
+  background-color: #03bb2c;
+  /* Green */
+  border-radius: 15px;
+  width: 70%;
+  padding: 20px 40px;
+  margin: 25px 0px 0px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.container .Row2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .Row2 .Title3, .container .Row2 .Title4 {
+  width: 230px;
+  height: 285px;
+  border: 1px solid white;
+  font-size: 18px;
+  margin: 20px 0px 0px 30px;
+  background-color: white;
+}
+
+.container .Row2 .Title3 img, .container .Row2 .Title4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.container .Row2 .Title4 {
+  height: 400px;
+}
+
+.container .box {
+  width: 230px;
+  height: 100px;
+  border: 1px solid white;
+  font-size: 18px;
+  margin: -100px 0px 0px 30px;
+  background-color: white;
+}
+
+.container .box .btn-tn {
+  background-color: #0316bb;
+  /* Green */
+  border-radius: 15px;
+  width: 80%;
+  padding: 20px 40px;
+  margin: 20px 0px 0px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=stylesheet.css.map */

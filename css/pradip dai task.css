@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.section-features {
+  position: absolute;
+  width: 1685px;
+  height: 670px;
+  left: 0px;
+  top: 0px;
+  background: #f7f7f7;
+}
+
+.section-features .head {
+  position: absolute;
+  width: 870px;
+  height: 125px;
+  left: 305px;
+  top: -50px;
+}
+
+.section-features .head__title {
+  position: absolute;
+  width: 507px;
+  height: 63px;
+  left: 300px;
+  top: 100px;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  color: #212121;
+}
+
+.section-features .head__body {
+  position: absolute;
+  width: 870px;
+  height: 46px;
+  left: 120px;
+  top: 179px;
+  font-size: 20px;
+  text-align: center;
+  color: #575757;
+}
+
+.section-features .cards__firstCard {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  left: 125px;
+  top: 250px;
+  background: #ffffff;
+}
+
+.section-features .cards__firstCard__title {
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 75px;
+  top: 35px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #212121;
+}
+
+.section-features .cards__firstCard__body {
+  position: absolute;
+  width: 208px;
+  height: 132px;
+  left: 35px;
+  top: 90px;
+  font-size: 18px;
+  text-align: center;
+  color: #575757;
+}
+
+.section-features .cards__firstCard__link {
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 70px;
+  top: 282px;
+  text-align: center;
+  background: #515151;
+  color: white;
+}
+
+.section-features .cards__secoundCard {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  left: 125px;
+  top: 250px;
+  background: #ffffff;
+  left: 485px;
+  background-color: #e4f2ff;
+}
+
+.section-features .cards__secoundCard__title {
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 75px;
+  top: 35px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #212121;
+}
+
+.section-features .cards__secoundCard__body {
+  position: absolute;
+  width: 208px;
+  height: 132px;
+  left: 35px;
+  top: 90px;
+  font-size: 18px;
+  text-align: center;
+  color: #575757;
+}
+
+.section-features .cards__secoundCard__link {
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 70px;
+  top: 282px;
+  text-align: center;
+  background: #515151;
+  color: white;
+  background-color: #0047ff;
+}
+
+.section-features .cards__thirdCard {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  left: 125px;
+  top: 250px;
+  background: #ffffff;
+  left: 885px;
+  background-color: #d1dfbf;
+}
+
+.section-features .cards__thirdCard__title {
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 75px;
+  top: 35px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #212121;
+}
+
+.section-features .cards__thirdCard__body {
+  position: absolute;
+  width: 208px;
+  height: 132px;
+  left: 35px;
+  top: 90px;
+  font-size: 18px;
+  text-align: center;
+  color: #575757;
+}
+
+.section-features .cards__thirdCard__link {
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 70px;
+  top: 282px;
+  text-align: center;
+  background: #515151;
+  color: white;
+  background-color: #40433c;
+}
+
+.section-features .cards__fourthCard {
+  position: absolute;
+  width: 300px;
+  height: 350px;
+  left: 125px;
+  top: 250px;
+  background: #ffffff;
+  left: 1285px;
+  background-color: #f9dbdb;
+}
+
+.section-features .cards__fourthCard__title {
+  position: absolute;
+  width: 152px;
+  height: 24px;
+  left: 75px;
+  top: 35px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #212121;
+}
+
+.section-features .cards__fourthCard__body {
+  position: absolute;
+  width: 208px;
+  height: 132px;
+  left: 35px;
+  top: 90px;
+  font-size: 18px;
+  text-align: center;
+  color: #575757;
+}
+
+.section-features .cards__fourthCard__link {
+  position: absolute;
+  width: 126px;
+  height: 40px;
+  left: 70px;
+  top: 282px;
+  text-align: center;
+  background: #515151;
+  color: white;
+  background-color: #b75f5f;
+}
+
+.section-service {
+  position: absolute;
+  width: 1440px;
+  height: 1386px;
+  left: 150px;
+  top: 750px;
+}
+
+.section-service .head__header {
+  position: absolute;
+  width: 197px;
+  height: 63px;
+  left: 622px;
+  top: 100px;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  color: #e70606;
+}
+
+.section-service .head__body {
+  position: absolute;
+  width: 870px;
+  height: 46px;
+  left: 285px;
+  top: 179px;
+  font-size: 20px;
+  text-align: center;
+  color: #575757;
+}
+
+.section-service .body .sectionFirst__header {
+  position: absolute;
+  width: 282px;
+  height: 42px;
+  left: 235px;
+  top: 410px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #212121;
+  width: 282px;
+  height: 42px;
+  left: 235px;
+  top: 410px;
+}
+
+.section-service .body .sectionFirst__body {
+  position: absolute;
+  width: 371px;
+  height: 96px;
+  left: 234px;
+  top: 464px;
+  font-size: 18px;
+  color: #575757;
+}
+
+.section-service .body .sectionFirst__link {
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  left: 234px;
+  top: 575px;
+  color: white;
+  text-align: center;
+  background: #e70606;
+}
+
+.section-service .body .sectionFirst__img-wrap {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  left: 745px;
+  top: 295px;
+  background: #ffffff;
+}
+
+.section-service .body .sectionFirst__img-wrap img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 10px solid #f9dbdb;
+}
+
+.section-service .body .sectionSecound__header {
+  position: absolute;
+  width: 282px;
+  height: 42px;
+  left: 235px;
+  top: 410px;
+  font-weight: bold;
+  font-size: 32px;
+  color: #212121;
+  left: 835px;
+  top: 920px;
+}
+
+.section-service .body .sectionSecound__body {
+  position: absolute;
+  width: 371px;
+  height: 96px;
+  left: 234px;
+  top: 464px;
+  font-size: 18px;
+  color: #575757;
+  left: 834px;
+  top: 1016px;
+}
+
+.section-service .body .sectionSecound__link {
+  position: absolute;
+  width: 150px;
+  height: 45px;
+  left: 234px;
+  top: 575px;
+  color: white;
+  text-align: center;
+  background: #e70606;
+  left: 860px;
+  top: 1155px;
+}
+
+.section-service .body .sectionSecound__img-wrap {
+  position: absolute;
+  width: 440px;
+  height: 440px;
+  left: 745px;
+  top: 295px;
+  background: #ffffff;
+  left: 230px;
+  top: 860px;
+}
+
+.section-service .body .sectionSecound__img-wrap img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 10px solid #f9dbdb;
+}
+/*# sourceMappingURL=style.css.map */

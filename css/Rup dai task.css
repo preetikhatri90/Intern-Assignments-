@@ -1,0 +1,245 @@
+/* 1st task */
+
+ul li {
+  background-color: #4d7298;
+  padding: 20px;
+  color: #fff;
+  border-radius: 10px;
+  border: 1px solid #77a686;
+  font-size: 2em;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.firstRow {
+  padding: 0 80px;
+  width: 50%;
+  display: flex;
+  flex: 0 0 25%;
+  justify-content: space-evenly;
+}
+.SecoundRow {
+  padding: 20px 10px 0px 55px;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ThirdRow {
+  padding: 20px 10px 0px 65px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  /*   flex: 0 0 33.33%; */
+}
+
+/*  2nd task */
+#header {
+  width: 50%;
+  height: 40px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 38px;
+  position: relative;
+}
+
+#header:after {
+  content: "";
+  width: 100%;
+  border-bottom: solid 5px gray;
+  position: absolute;
+  left: 0;
+  top: 70%;
+  z-index: 1;
+}
+
+h3 {
+  background-color: white;
+  width: auto;
+  display: inline-block;
+  z-index: 3;
+  padding: 0 20px 0 20px;
+  color: black;
+  position: relative;
+  font-family: calibri;
+  font-weight: lighter;
+  margin: 0;
+}
+
+/* 3rd task  */
+.parent {
+  margin: 0px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-gap: 50px;
+  padding: 30px 50px;
+}
+a {
+  color: #ff9933;
+  text-decoration: none;
+}
+.child:last-child {
+  color: #ff9933;
+}
+.child:first-child p:last-child a {
+  color: #000000;
+  font-weight: bold;
+}
+@media (max-width: 575px) {
+  .parent {
+    display: block;
+  }
+  .child:first-child p:last-child a {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .parent {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+/*  4th task */
+@import "http://fonts.googleapis.com/css?family=Raleway";
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  border: 0.5px solid white;
+  margin: auto;
+  background: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
+}
+.form-container {
+  margin: 10px auto;
+  padding: 30px;
+  width: 88%;
+  border-radius: 6px;
+  background-color: white;
+}
+.title {
+  font-weight: bold;
+  margin: -30px 0px 40px -30px;
+  padding: 15px;
+  width: 105.4%;
+  height: 20px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: black;
+  color: white;
+}
+
+#fname,
+#lname {
+  border: none;
+  background-color: #f5f5f5;
+  margin: auto 10px;
+  width: 40%;
+  height: 60px;
+}
+
+.form-container .name {
+  width: 35%;
+  float: left;
+  text-align: left;
+  padding: 20px 6px 5px 0px;
+}
+
+#email1 {
+  border: none;
+  background-color: #f5f5f5;
+  margin: 40px 60px;
+  width: 58%;
+  height: 60px;
+}
+
+.form-container .email {
+  float: left;
+  text-align: left;
+  padding: 60px 25px 15px 45px;
+}
+
+.form-container .cname {
+  width: 20%;
+  float: left;
+  text-align: left;
+  padding: 20px 10px 10px 45px;
+}
+#cname {
+  border: none;
+  background-color: #f5f5f5;
+  width: 57%;
+  height: 60px;
+}
+
+#anum {
+  border: none;
+  background-color: #f5f5f5;
+  margin: auto 50px;
+  width: 50%;
+  height: 60px;
+}
+#phnum {
+  border: none;
+  background-color: #f5f5f5;
+  margin: auto 10px;
+  width: 50%;
+  height: 60px;
+}
+
+.form-container .phnum {
+  float: left;
+  text-align: left;
+  padding: 30px 30px 0px 40px;
+}
+.form-container .subj {
+  float: left;
+  text-align: left;
+  padding: 60px 60px 5px 40px;
+}
+.form-container #option {
+  border: none;
+  background-color: #f5f5f5;
+  margin: 40px 10px;
+  width: 60%;
+  height: 60px;
+}
+
+.input-name {
+  width: 80%;
+  display: flex;
+  padding: 20px 10px 20px 50px;
+}
+input[type="Submit"] {
+  background: #ff6863;
+  border-radius: 10px;
+  width: 25%;
+  height: 50px;
+  margin: -5px;
+}
+
+.form-container #fname {
+  width: 50%;
+  margin-right: 20px;
+}
+.form-container #lname {
+  width: 50%;
+}
+.form-container #anum {
+  width: 15%;
+  margin-right: 20px;
+}
+.form-container #phnum {
+  width: 37%;
+}
+
+.form-container #yes {
+  width: 50px;
+  height: 15px;
+  margin: auto -20px 20px -20px;
+}
+.form-container #no {
+  width: 50px;
+  height: 15px;
+  margin: 10px -20px 30px 35px;
+}
